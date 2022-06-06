@@ -1,0 +1,68 @@
+. {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: snow;
+    margin: 0 auto;
+    margin-top: 25vh;
+    color: #262626;
+    
+}
+
+body > div {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.header, .biography {
+    width: 60vw;
+}
+
+.biography {
+    display: flex;
+    align-items: center;
+}
+
+.biography > div {
+    margin-right: 30px; 
+}
+
+.biography img {
+    width: 150px;
+    height: 150px;
+}
+
+.portfolio {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 30%;
+    justify-content: center;
+    
+}
+
+.card {
+    width: 30%;
+    margin: 15px;
+    border: 
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
