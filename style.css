@@ -57,12 +57,14 @@ img {
 }
 
 .card {
-    width: 30%;
+    width: 25%;
     margin: 15px;
-    border: 
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ebebeb;
 }
 
 .card img {
-    width: 100%;
+    width: 100%; 
     object-fit: contain;
 }
